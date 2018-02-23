@@ -12,9 +12,12 @@
     <script src="js/jquery-ui.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.flip.js"></script>
     <script src="js/main.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 
 <body>
@@ -44,214 +47,286 @@
             </div>
         </div>
     </div>
-
-    <div class="container section" id="AboutUs">
-        <div class="row sectionHeader">
-            <div class="col-md-12 aboutTitle">
-                فريق
-                <img class="zer0ne" src="images/logo.png" />
+    <div class="BodyContent">
+        <div class="container section" id="Services">
+            <div class="row sectionHeader">
+                <div class="col-md-12 aboutTitle">
+                    خدمات
+                    <img class="zer0ne" src="images/logo.png" />
+                </div>
             </div>
-        </div>
+            <div class="services_container">
+                <div id="card">
+                    <div class="front">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 serviceBlock mobileApp">
+                                    <p>Mobile</p>
+                                    <img src="images/innovation-icon.png" style="width: 100%" />
+                                    <p>أحسن موبيل أبلكيشن</p>
+                                </div>
+                                <div class="col-6 serviceBlock webApp">
+                                    <p>Web</p>
+                                    <img src="images/innovation-icon.png" style="width: 100%" />
+                                    <p>أحسن موبيل أبلكيشن</p>
+                                </div>
+                                <div class="col-6 serviceBlock startup">
+                                    <p>Start Up</p>
+                                    <img src="images/innovation-icon.png" style="width: 100%" />
+                                    <p>أحسن موبيل أبلكيشن</p>
+                                </div>
+                                <div class="col-6 serviceBlock consult">
+                                    <p>Consultance</p>
+                                    <img src="images/innovation-icon.png" style="width: 100%" />
+                                    <p>أحسن موبيل أبلكيشن</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="back">
 
-        <!-- Slider main container -->
-        <div class="swiper-container">
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
-
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>
-                                الشغف التقني أهم ما يميزنا... في فريق
-                                <span class="zer0neSpan"></span> نعمل بحماس لبذل كافة طافتنا لتحويل أفكارك الي مشاريع ناجحة بسهم في تطوير و تنمية
-                                خدماتك و أعمالك. و يراقب عن كثب كافة التطورات في عالم البرمجيات و تطبيقات الجوال.
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <img class="aboutSwiperImg" src="images/placeholder.png" />
-                        </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img class="aboutSwiperImg" src="images/placeholder.png" />
-                        </div>
-                        <div class="col-md-6">
-                            <p>
-                                فريق
-                                <span class="zer0neSpan"></span> هو فريق سعودي يتكون من كوادر محترفة في عالم البرمجيات و الانظمة الالكترونية بخبرات
-                                أكثر من 20 عام, تتميز هذة الخبرة بالتنوع و المشاركة في قطاعات مختلفة مثل قطاع الأعمال التجارية
-                                و الصحة و القطاع الحكومي.
-                            </p>
-                        </div>
+                    <div class="mobileAppContent content">
+                        Mobile App Service
+                        <p>
+                            عالم الجوال أصبح أوسع و أسرع من ذي قبل, و بمساعد فريق ~ تستطيع بناء التطبيق الخاص بك و بأعمالك حسب الإمكانيات و المعايير
+                            المطلوبة واستخدام جميع إمكانيات الهواتف والتابلت لما يحقق متطلبات مشروعك.
+                        </p>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>
-                                يضع فريق
-                                <span class="zer0neSpan"></span> نصب عينيه اهداف عليا من أهمها رفع المعايير التقنية في المملكة العربية السعودية و
-                                المشارييع التقنية بها عن طريق استخدام أحدث التقنيات و أتباع الاساليب و الانماط المشهود بها
-                                عالميا لانجاز المشاريع البرمجية و التقنية.
-                            </p>
-                        </div>
-                        <div class="col-md-6">
-                            <img class="aboutSwiperImg" src="images/placeholder.png" />
-                        </div>
+                    <div class="webAppContent content">
+                        web App Service
+                        <p>
+                            نهتم ببناء تطبيقات الانترنت التفاعليه و التي بدورها تفتح أسواق جديدة لأعمالك و خدماتك على مستخدمين شبكة الإنترنت و تحقق لك
+                            التواجد الرقمي والانتشار الأمثل على ارض الواقع.
+                        </p>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img class="aboutSwiperImg" src="images/placeholder.png" />
-                        </div>
-                        <div class="col-md-6">
-                            <p>
-                                يمثل فريق
-                                <span class="zer0neSpan"></span> الشريك التقني الموثوق لعملائه و شركائه حيث يهتم ببناء أنظمة البرمجيات لقطاع الأعمال
-                                و الشركات الناشئة و التي تساعدهم على تسيير و تنمية أعمالهم التجارية والمؤسسية في عالم التقنية.
-                            </p>
-                        </div>
+                    <div class="startUpContent content">
+                        StartUps Service
+                        <p>
+                            نهتم ببناء تطبيقات الانترنت التفاعليه و التي بدورها تفتح أسواق جديدة لأعمالك و خدماتك على مستخدمين شبكة الإنترنت و تحقق لك
+                            التواجد الرقمي والانتشار الأمثل على ارض الواقع.
+                        </p>
+                    </div>
+                    <div class="consultContent content">
+                        Consulting Service
+                        <p>
+                            نهتم ببناء تطبيقات الانترنت التفاعليه و التي بدورها تفتح أسواق جديدة لأعمالك و خدماتك على مستخدمين شبكة الإنترنت و تحقق لك
+                            التواجد الرقمي والانتشار الأمثل على ارض الواقع.
+                        </p>
                     </div>
                 </div>
             </div>
-
-        </div>
-        <div class="row ">
-            <div class="coreValuesTitle">
-                القيم الأساسية لفريق
-                <span class="zer0neSpan"></span>
-            </div>
-        </div>
-        <div class="row coreValues">
-            <div class="col-md-4">
-                <img src="images/passion-icon.png" />
-                <h2>الشغف</h2>
-
-                <p>الشغف للتقنية هو المحرك الرئيسي لفريق ~ فنحن نسعى دائما لإكتشاف أحدث التقنيات و أفضل الاساليب في عالم التقنية
-                    و البرمجيات.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <img src="images/quality-icon.png" />
-                <h2>الجودة</h2>
-                <p>نهتم بأدق التفاصيل, ونحرص دائما على تنفيذ المهام حسب المعايير المتفق عليها مع شركائنا و التي تتوافق مع متطلبات
-                    أعمالهم و تضمن استمراريتها و توسعها.
-                </p>
-            </div>
-            <div class="col-md-4">
-                <img src="images/innovation-icon.png" />
-                <h2>الإبتكار</h2>
-                <p>لا نقبل بالتقليدي و المعتاد… ونبحث دائما عن التميز في الأعمال و ترك الإنطباع الأمثل في أذهان المستخدمين.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container section" id="HowWeWork">
-        <div class="row sectionHeader">
-            <div class="col-md-12 aboutTitle">
-                كيف يعمل فريق
-                <img class="zer0ne" src="images/logo.png" />
-            </div>
         </div>
 
-        <p>يؤمن فريق Zer0ne إيمانا تاما أن لكل عميل متطلبات خاصة و ظروف مختلفه يجب مراعاتها و بالتالي تتسم سياسة الفريق في التعامل
-            مع العملاء بالمرونة التامة لاستيعاب أفكار و متطلبات كل عميل بشكل متخصص و بإحترافية تامة و من ثم العمل على تحويلها
-            الى أنظمة و خدمات ناجحة تخدم أعمالك و عملائك</p>
-
-        <div class="row section" data-aos="fade-up" data-aos-duration="2000">
-            <div class="col-md-6">
-                <div class="col-md-1">
-                    <span class="sectionNumber">01</span>
+        <div class="container section" id="AboutUs">
+            <div class="row sectionHeader">
+                <div class="col-md-12 aboutTitle">
+                    فريق
+                    <img class="zer0ne" src="images/logo.png" />
                 </div>
-                <div class="col-md-11">
-                    <span class="sectionTitle"> تواصل معنا</span>
-                    <p>
-                        التواصل دائم بين فريق ~ و شركاء العمل و أثناء العمل على المشروع وحتى بعد انتهاءه… لبدء العمل على مشروعك.. فقط تواصل معنا
-                        (تواصل معنا)
+            </div>
+
+            <!-- Slider main container -->
+            <div class="swiper-container">
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>
+                                    الشغف التقني أهم ما يميزنا... في فريق
+                                    <span class="zer0neSpan"></span> نعمل بحماس لبذل كافة طافتنا لتحويل أفكارك الي مشاريع ناجحة بسهم في تطوير و تنمية
+                                    خدماتك و أعمالك. و يراقب عن كثب كافة التطورات في عالم البرمجيات و تطبيقات الجوال.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="aboutSwiperImg" src="images/placeholder.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="aboutSwiperImg" src="images/placeholder.png" />
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    فريق
+                                    <span class="zer0neSpan"></span> هو فريق سعودي يتكون من كوادر محترفة في عالم البرمجيات و الانظمة الالكترونية بخبرات
+                                    أكثر من 20 عام, تتميز هذة الخبرة بالتنوع و المشاركة في قطاعات مختلفة مثل قطاع الأعمال
+                                    التجارية و الصحة و القطاع الحكومي.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p>
+                                    يضع فريق
+                                    <span class="zer0neSpan"></span> نصب عينيه اهداف عليا من أهمها رفع المعايير التقنية في المملكة العربية السعودية
+                                    و المشارييع التقنية بها عن طريق استخدام أحدث التقنيات و أتباع الاساليب و الانماط المشهود
+                                    بها عالميا لانجاز المشاريع البرمجية و التقنية.
+                                </p>
+                            </div>
+                            <div class="col-md-6">
+                                <img class="aboutSwiperImg" src="images/placeholder.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="aboutSwiperImg" src="images/placeholder.png" />
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    يمثل فريق
+                                    <span class="zer0neSpan"></span> الشريك التقني الموثوق لعملائه و شركائه حيث يهتم ببناء أنظمة البرمجيات لقطاع الأعمال
+                                    و الشركات الناشئة و التي تساعدهم على تسيير و تنمية أعمالهم التجارية والمؤسسية في عالم
+                                    التقنية.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row ">
+                <div class="coreValuesTitle">
+                    القيم الأساسية لفريق
+                    <span class="zer0neSpan"></span>
+                </div>
+            </div>
+            <div class="row coreValues">
+                <div class="col-md-4">
+                    <img src="images/passion-icon.png" />
+                    <h2>الشغف</h2>
+
+                    <p>الشغف للتقنية هو المحرك الرئيسي لفريق ~ فنحن نسعى دائما لإكتشاف أحدث التقنيات و أفضل الاساليب في عالم
+                        التقنية و البرمجيات.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/quality-icon.png" />
+                    <h2>الجودة</h2>
+                    <p>نهتم بأدق التفاصيل, ونحرص دائما على تنفيذ المهام حسب المعايير المتفق عليها مع شركائنا و التي تتوافق مع
+                        متطلبات أعمالهم و تضمن استمراريتها و توسعها.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="images/innovation-icon.png" />
+                    <h2>الإبتكار</h2>
+                    <p>لا نقبل بالتقليدي و المعتاد… ونبحث دائما عن التميز في الأعمال و ترك الإنطباع الأمثل في أذهان المستخدمين.
                     </p>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="images/placeholder.png" class="stepImg" />
-            </div>
         </div>
-        <div class="row section" data-aos="fade-up" data-aos-duration="2000">
-            <div class="col-md-6">
-                <div class="col-md-1">
-                    <span class="sectionNumber">02</span>
-                </div>
-                <div class="col-md-11">
-                    <span class="sectionTitle">تحويل رؤيتك إلى نموذج</span>
-                    <p>
-                        بعد جمع كافة الأفكار والمتطلبات الخاصة بالعميل يقوم المحللين في فريق ~ بتكوين نموذج مرئي مطابق للمشروع بعد انتهائه حتى يتمكن
-                        العميل من تخيل الشكل النهائي للمشروع و لتجنب أي نقص في التفاصيل و الافكار.
-                    </p>
+        <div class="container section" id="HowWeWork">
+            <div class="row sectionHeader">
+                <div class="col-md-12 aboutTitle">
+                    كيف يعمل فريق
+                    <img class="zer0ne" src="images/logo.png" />
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="images/placeholder.png" class="stepImg" />
-            </div>
-        </div>
-        <div class="row section" data-aos="fade-up" data-aos-duration="2000">
-            <div class="col-md-6">
-                <div class="col-md-1">
-                    <span class="sectionNumber">03</span>
+
+            <p>يؤمن فريق Zer0ne إيمانا تاما أن لكل عميل متطلبات خاصة و ظروف مختلفه يجب مراعاتها و بالتالي تتسم سياسة الفريق
+                في التعامل مع العملاء بالمرونة التامة لاستيعاب أفكار و متطلبات كل عميل بشكل متخصص و بإحترافية تامة و من ثم
+                العمل على تحويلها الى أنظمة و خدمات ناجحة تخدم أعمالك و عملائك</p>
+
+            <div class="row section" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-6">
+                    <div class="col-md-1">
+                        <span class="sectionNumber">01</span>
+                    </div>
+                    <div class="col-md-11">
+                        <span class="sectionTitle"> تواصل معنا</span>
+                        <p>
+                            التواصل دائم بين فريق ~ و شركاء العمل و أثناء العمل على المشروع وحتى بعد انتهاءه… لبدء العمل على مشروعك.. فقط تواصل معنا
+                            (تواصل معنا)
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-11">
-                    <span class="sectionTitle">تخطيط و تنفيذ المشروع</span>
-                    <p>
-                        يتم التخطيط لتنفيذ و تسليم المشروع على مرحلة او عدة مراحل حسب احتياج العميل و أولوياته و يلتزم فريق ~ بإتباع النموذج المرئي
-                        الذي تم الموافقه عليه من قبل العميل.
-                    </p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <img src="images/placeholder.png" class="stepImg" />
-            </div>
-        </div>
-        <div class="row section" data-aos="fade-up" data-aos-duration="2000">
-            <div class="col-md-6">
-                <div class="col-md-1">
-                    <span class="sectionNumber">04</span>
-                </div>
-                <div class="col-md-11">
-                    <span class="sectionTitle">التسليم</span>
-                    <p>
-                        يتعهد فريق ~ بتسليم المشروع في الوقت و بالشكل المخطط له من قبل أيضا يتعهد بتسليم جميع الأكواد و الوثائق الإرشادية الخاصة
-                        بالمشروع حسب الاتفاق مع العميل والتي تسهل تطوير المشروع مستقبلا.
-                    </p>
+                <div class="col-md-6">
+                    <img src="images/placeholder.png" class="stepImg" />
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="images/placeholder.png" class="stepImg" />
-            </div>
-        </div>
-        <div class="row section" data-aos="fade-up" data-aos-duration="2000">
-            <div class="col-md-6">
-                <div class="col-md-1">
-                    <span class="sectionNumber">05</span>
+            <div class="row section" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-6">
+                    <div class="col-md-1">
+                        <span class="sectionNumber">02</span>
+                    </div>
+                    <div class="col-md-11">
+                        <span class="sectionTitle">تحويل رؤيتك إلى نموذج</span>
+                        <p>
+                            بعد جمع كافة الأفكار والمتطلبات الخاصة بالعميل يقوم المحللين في فريق ~ بتكوين نموذج مرئي مطابق للمشروع بعد انتهائه حتى يتمكن
+                            العميل من تخيل الشكل النهائي للمشروع و لتجنب أي نقص في التفاصيل و الافكار.
+                        </p>
+                    </div>
                 </div>
-                <div class="col-md-11">
-                    <span class="sectionTitle">الصيانة</span>
-                    <p>
-                        يلتزم فريق ~ بعد إطلاق المشروع بمتابعته حتى التأكد من استقراره وبفترة صيانة يتم الاتفاق عليها مع العميل و التي يقوم فيها
-                        الفريق بصيانة الأنظمة والخدمات التي تم تنفيذها.
-                    </p>
+                <div class="col-md-6">
+                    <img src="images/placeholder.png" class="stepImg" />
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="images/placeholder.png" class="stepImg" />
+            <div class="row section" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-6">
+                    <div class="col-md-1">
+                        <span class="sectionNumber">03</span>
+                    </div>
+                    <div class="col-md-11">
+                        <span class="sectionTitle">تخطيط و تنفيذ المشروع</span>
+                        <p>
+                            يتم التخطيط لتنفيذ و تسليم المشروع على مرحلة او عدة مراحل حسب احتياج العميل و أولوياته و يلتزم فريق ~ بإتباع النموذج المرئي
+                            الذي تم الموافقه عليه من قبل العميل.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/placeholder.png" class="stepImg" />
+                </div>
             </div>
-        </div>
+            <div class="row section" data-aos="fade-up" data-aos-duration="2000">
+                <div class="col-md-6">
+                    <div class="col-md-1">
+                        <span class="sectionNumber">04</span>
+                    </div>
+                    <div class="col-md-11">
+                        <span class="sectionTitle">التسليم</span>
+                        <p>
+                            يتعهد فريق ~ بتسليم المشروع في الوقت و بالشكل المخطط له من قبل أيضا يتعهد بتسليم جميع الأكواد و الوثائق الإرشادية الخاصة
+                            بالمشروع حسب الاتفاق مع العميل والتي تسهل تطوير المشروع مستقبلا.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/placeholder.png" class="stepImg" />
+                </div>
+            </div>
+            <div class="row section">
+                <div class="col-md-6">
+                    <div class="col-md-1">
+                        <span class="sectionNumber">05</span>
+                    </div>
+                    <div class="col-md-11">
+                        <span class="sectionTitle">الصيانة</span>
+                        <p>
+                            يلتزم فريق ~ بعد إطلاق المشروع بمتابعته حتى التأكد من استقراره وبفترة صيانة يتم الاتفاق عليها مع العميل و التي يقوم فيها
+                            الفريق بصيانة الأنظمة والخدمات التي تم تنفيذها.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/placeholder.png" class="stepImg" />
+                </div>
+            </div>
 
 
 
+        </div>
     </div>
 </body>
 
