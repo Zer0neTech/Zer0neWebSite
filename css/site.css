@@ -380,10 +380,13 @@ menu_leftPanel {
 }
 
 .aboutSwiperImg {
-    width: 250px;
+    width: 75%;
     display: block;
     margin: auto;
     margin-bottom: 10px;
+    border: 1px solid #7d818b;
+    border-radius: 10px;
+
 }
 
 .zer0neSpan {
@@ -428,39 +431,93 @@ menu_leftPanel {
     width: 80%;
     display: block;
     margin: auto;
+    border: 1px solid gray;
+    border-radius: 12px;
 }
 
 .services_container {
     display: block;
     margin: 0px auto;
     width: 95%;
-    height: 500px;
-    background: rgb(208, 208, 208);
-    border: 1px solid gray;
+    height: 550px;
+    /* background: rgb(208, 208, 208); */
+    border: 2px solid white;
     border-radius: 12px;
     max-width: 400px;
     margin-bottom: 10px;
 }
 
 .services_container .front {
-    background: url(../images/_services.png);
+    /* background: url(../images/_services.png); */
 }
 
 .serviceBlock {
-    height: 250px;
+    height: 260px;
     text-align: center;
     /* background: gray; */
+    /* background-image: url('../images/Layer 5.png');
+    background-size:100%;
+    background-repeat: no-repeat; */
+    background: linear-gradient(#93969d, #7c808a);
+}
+.serviceBlock p{
+    font-size: 17pt;
+    font-family: Tahoma;
+    color: rgb(235, 235, 235);
+    margin-top: 10px;
+}
+.serviceBlock.mobileApp{
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    border-top-right-radius: 10px;
+}
+.serviceBlock.consult{
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom-left-radius: 10px;
+}
+.serviceBlock.webApp{
+    border-top-left-radius: 10px;    
+}
+.serviceBlock.startup{
+    border-bottom-right-radius: 10px;
 }
 
 #card .back {
-    background: rgb(208, 208, 208);
-    color: black;
+    background: linear-gradient(rgb(147, 150, 157), rgb(124, 128, 138));
+    color: rgb(235, 235, 235);
+    font-size: 25px;
     text-align: center;
     padding: 0px 10px;
     border-radius: 13px;
 }
-
+.back  img{
+    width: 100%;
+    border-radius: 10px;
+}
+.back p{
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    margin: 20px auto;
+}
 .serviceBlock p {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 10px;
+    width: auto;
+    text-align: center;    
+    padding-top: 10px;
+    background: rgba(142, 140, 144, 0.18823529411764706);
+}
+.img-center{
+    display: block;
+    margin: 0 auto;
+    width: auto;
+}
+.text-center{
     text-align: center;
 }
 
