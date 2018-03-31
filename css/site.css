@@ -15,7 +15,7 @@ body {
 
 .header {
     position: relative;
-    height: 625px;
+    height: 100vh;
 }
 
 .fixed-bg {
@@ -51,7 +51,7 @@ body {
     position: absolute;
     width: 100%;
     max-width: 400px;
-    top: 20%;
+    top: 15%;
     color: white;
     padding: 32px;
     /* background: gray; */
@@ -519,6 +519,41 @@ menu_leftPanel {
 }
 .text-center{
     text-align: center;
+}
+
+.dt_service_card
+{
+    padding: 10px;
+    text-align: center;
+    /* padding-top: 110px; */
+    background: linear-gradient(#93969d, #7c808a);
+    color: white;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+.dt_service_card p
+{
+    text-align: center ;
+        padding-bottom: 35px;
+}
+.dt_service_card .dt_service_card_title
+    {
+        color: #ad2525;
+        font-size: 23pt;
+    }
+
+.dt_service_card .btn{
+    display: block;
+    margin: 0 auto;
+    /* right: 30%; */
+}
+#Services .row{
+padding: 10px 50px;
+}
+.btnContainer{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
 }
 
 @media only screen and (max-width: 550px) {

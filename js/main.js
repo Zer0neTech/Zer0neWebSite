@@ -50,7 +50,7 @@ $(document).ready(function () {
         scrollbar: {
             el: '.swiper-scrollbar',
         },
-    });
+    });   
 
 
     var flipper = $("#card").flip({
@@ -65,20 +65,45 @@ $(document).ready(function () {
     })
     $('.serviceBlock.webApp').click(function () {
         var content = $('.webAppContent').html();
-        $('.back').html(content);        
+        $('.back').html(content);
         flipper.flip(true);
     })
     $('.serviceBlock.startup').click(function () {
         var content = $('.startUpContent').html();
-        $('.back').html(content);        
+        $('.back').html(content);
         flipper.flip(true);
     })
     $('.serviceBlock.consult').click(function () {
         var content = $('.consultContent').html();
-        $('.back').html(content);        
+        $('.back').html(content);
         flipper.flip(true);
     })
     $('#card .back').click(function () {
         $("#card").flip('toggle');
     })
+
+    function detectmob() {
+        if (navigator.userAgent.match(/Android/i)
+            || navigator.userAgent.match(/webOS/i)
+            || navigator.userAgent.match(/iPhone/i)
+            || navigator.userAgent.match(/iPad/i)
+            || navigator.userAgent.match(/iPod/i)
+            || navigator.userAgent.match(/BlackBerry/i)
+            || navigator.userAgent.match(/Windows Phone/i)
+        ) {
+            return true;
+        }
+        else {
+            return false;
+        }
+    }
+
+    if (detectmob()) {
+        $('.ServicesWeb').hide();
+        $('.ServicesMob').show();
+    }
+    else {
+        $('.ServicesWeb').show();
+        $('.ServicesMob').hide();
+    }
 });
