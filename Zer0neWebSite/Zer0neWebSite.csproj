@@ -1,0 +1,112 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Contents\css\aos.css" />
+    <None Include="wwwroot\Contents\css\bootstrap-rtl.css" />
+    <None Include="wwwroot\Contents\css\bootstrap.css" />
+    <None Include="wwwroot\Contents\css\site.css" />
+    <None Include="wwwroot\Contents\images\1.svg" />
+    <None Include="wwwroot\Contents\images\Amazone AWS.jpg" />
+    <None Include="wwwroot\Contents\images\Amazone AWS.png" />
+    <None Include="wwwroot\Contents\images\angular%401x.jpg" />
+    <None Include="wwwroot\Contents\images\angular.png" />
+    <None Include="wwwroot\Contents\images\Artboard 1 - Copy.png" />
+    <None Include="wwwroot\Contents\images\Artboard 1.png" />
+    <None Include="wwwroot\Contents\images\aspnet.png" />
+    <None Include="wwwroot\Contents\images\blueprint.jpg" />
+    <None Include="wwwroot\Contents\images\building.jpeg" />
+    <None Include="wwwroot\Contents\images\burger_menu.png" />
+    <None Include="wwwroot\Contents\images\code - Copy.jpeg" />
+    <None Include="wwwroot\Contents\images\code.jpeg" />
+    <None Include="wwwroot\Contents\images\Consultancy - Copy.jpg" />
+    <None Include="wwwroot\Contents\images\Consultancy.jpg" />
+    <None Include="wwwroot\Contents\images\consultant - Copy.png" />
+    <None Include="wwwroot\Contents\images\consultant.png" />
+    <None Include="wwwroot\Contents\images\contactus.jpeg" />
+    <None Include="wwwroot\Contents\images\dotnet.png" />
+    <None Include="wwwroot\Contents\images\fav.png" />
+    <None Include="wwwroot\Contents\images\favicon.ico" />
+    <None Include="wwwroot\Contents\images\html5.png" />
+    <None Include="wwwroot\Contents\images\images.jpg" />
+    <None Include="wwwroot\Contents\images\images.jpg.png" />
+    <None Include="wwwroot\Contents\images\img.jpg" />
+    <None Include="wwwroot\Contents\images\innovation-icon.png" />
+    <None Include="wwwroot\Contents\images\Layer 3 - Copy.png" />
+    <None Include="wwwroot\Contents\images\Layer 3.png" />
+    <None Include="wwwroot\Contents\images\Layer 4 - Copy.png" />
+    <None Include="wwwroot\Contents\images\Layer 4.png" />
+    <None Include="wwwroot\Contents\images\Layer 5 - Copy.png" />
+    <None Include="wwwroot\Contents\images\Layer 5.png" />
+    <None Include="wwwroot\Contents\images\Layer 6 - Copy.png" />
+    <None Include="wwwroot\Contents\images\Layer 6.png" />
+    <None Include="wwwroot\Contents\images\logo.png" />
+    <None Include="wwwroot\Contents\images\maintainance.jpg" />
+    <None Include="wwwroot\Contents\images\mobileDev.jpeg" />
+    <None Include="wwwroot\Contents\images\mock1.jpg" />
+    <None Include="wwwroot\Contents\images\mock2.jpg" />
+    <None Include="wwwroot\Contents\images\mock4.jpg" />
+    <None Include="wwwroot\Contents\images\moobile-app-icon - Copy.png" />
+    <None Include="wwwroot\Contents\images\moobile-app-icon.png" />
+    <None Include="wwwroot\Contents\images\mssql.png" />
+    <None Include="wwwroot\Contents\images\nodejs.jpg" />
+    <None Include="wwwroot\Contents\images\nodejs.png" />
+    <None Include="wwwroot\Contents\images\ontime.jpeg" />
+    <None Include="wwwroot\Contents\images\partner.jpeg" />
+    <None Include="wwwroot\Contents\images\passion-icon.png" />
+    <None Include="wwwroot\Contents\images\passion.jpeg" />
+    <None Include="wwwroot\Contents\images\pexels-photo-257897 - Copy.jpeg" />
+    <None Include="wwwroot\Contents\images\pexels-photo-257897.jpeg" />
+    <None Include="wwwroot\Contents\images\pexels-photo-47261.jpeg" />
+    <None Include="wwwroot\Contents\images\pexels-photo-546819 - Copy.jpeg" />
+    <None Include="wwwroot\Contents\images\pexels-photo-546819.jpeg" />
+    <None Include="wwwroot\Contents\images\pexels-photo-893894.jpeg" />
+    <None Include="wwwroot\Contents\images\placeholder.png" />
+    <None Include="wwwroot\Contents\images\planning.jpeg" />
+    <None Include="wwwroot\Contents\images\quality-icon.png" />
+    <None Include="wwwroot\Contents\images\react%401x.jpg" />
+    <None Include="wwwroot\Contents\images\react.png" />
+    <None Include="wwwroot\Contents\images\riyadh.jpg" />
+    <None Include="wwwroot\Contents\images\riyadh2.jpg" />
+    <None Include="wwwroot\Contents\images\Rounded Rectangle 1 - Copy.png" />
+    <None Include="wwwroot\Contents\images\Rounded Rectangle 1.png" />
+    <None Include="wwwroot\Contents\images\services.png" />
+    <None Include="wwwroot\Contents\images\Socket.io.jpg" />
+    <None Include="wwwroot\Contents\images\Socket.io.png" />
+    <None Include="wwwroot\Contents\images\startup-solutions - Copy.png" />
+    <None Include="wwwroot\Contents\images\startup-solutions.png" />
+    <None Include="wwwroot\Contents\images\startups.jpeg" />
+    <None Include="wwwroot\Contents\images\tmp.jpg" />
+    <None Include="wwwroot\Contents\images\tmp1.jpg" />
+    <None Include="wwwroot\Contents\images\tmp2.jpg" />
+    <None Include="wwwroot\Contents\images\tmp3.jpg" />
+    <None Include="wwwroot\Contents\images\videoplayback.3gp" />
+    <None Include="wwwroot\Contents\images\web-app - Copy.png" />
+    <None Include="wwwroot\Contents\images\web-app.png" />
+    <None Include="wwwroot\Contents\images\web-code.png" />
+    <None Include="wwwroot\Contents\images\webDev.jpeg" />
+    <None Include="wwwroot\Contents\images\webdevelopment.jpeg" />
+    <None Include="wwwroot\Contents\images\xamarin.png" />
+    <None Include="wwwroot\Contents\images\_logo.png" />
+    <None Include="wwwroot\Contents\js\aos.js" />
+    <None Include="wwwroot\Contents\js\bootstrap.min.js" />
+    <None Include="wwwroot\Contents\js\jquery-ui.min.js" />
+    <None Include="wwwroot\Contents\js\jquery.flip.js" />
+    <None Include="wwwroot\Contents\js\jquery.min.js" />
+    <None Include="wwwroot\Contents\js\main.js" />
+    <None Include="wwwroot\Contents\js\swiper.min.js" />
+  </ItemGroup>
+
+</Project>
