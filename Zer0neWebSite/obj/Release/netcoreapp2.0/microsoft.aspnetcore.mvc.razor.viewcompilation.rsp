@@ -1,0 +1,13 @@
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=Zer0neWebSite
+--content-root=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\Home\About.cshtml
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\Home\Contact.cshtml
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\Home\Index.cshtml
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\Home\SendEmail.cshtml
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\Shared\Error.cshtml
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\Shared\_Layout.cshtml
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\_ViewImports.cshtml
+--file=C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\Views\_ViewStart.cshtml

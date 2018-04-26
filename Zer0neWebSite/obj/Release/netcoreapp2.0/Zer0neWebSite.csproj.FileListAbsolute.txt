@@ -1,0 +1,11 @@
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\bin\Release\netcoreapp2.0\Zer0neWebSite.deps.json
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\bin\Release\netcoreapp2.0\Zer0neWebSite.runtimeconfig.json
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\bin\Release\netcoreapp2.0\Zer0neWebSite.runtimeconfig.dev.json
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\bin\Release\netcoreapp2.0\Zer0neWebSite.dll
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\bin\Release\netcoreapp2.0\Zer0neWebSite.pdb
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\obj\Release\netcoreapp2.0\Zer0neWebSite.csprojResolveAssemblyReference.cache
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\obj\Release\netcoreapp2.0\Zer0neWebSite.csproj.CoreCompileInputs.cache
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\obj\Release\netcoreapp2.0\Zer0neWebSite.AssemblyInfoInputs.cache
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\obj\Release\netcoreapp2.0\Zer0neWebSite.AssemblyInfo.cs
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\obj\Release\netcoreapp2.0\Zer0neWebSite.dll
+C:\My Projects\Git\GitHub\Zer0neWebSite\Zer0neWebSite\obj\Release\netcoreapp2.0\Zer0neWebSite.pdb

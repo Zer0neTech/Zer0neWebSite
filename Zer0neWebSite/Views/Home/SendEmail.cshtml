@@ -1,7 +1,12 @@
 ﻿@model Zer0neWebSite.Models.EmailFormModel
 
-<br />
-<div class="wrap-contact100" style="background-image: url(Contents/images/RiyadhMap.png);">
+<div class="row sectionHeader">
+    <div class="col-md-12 aboutTitle">
+        تواصل مع 
+        <img class="zer0ne" src="Contents/images/logo.png" />
+    </div>
+</div>
+<div id="EmailForm" class="wrap-contact100" style="background-image: url(Contents/images/RiyadhMap.png);">
 <div class="wrap-contact100Form">
     <div class="contact100-form-title" style="background-image: url(Contents/images/bg-01.jpg);">
         <span class="contact100-form-title-1">
@@ -10,8 +15,9 @@
 
         <span class="contact100-form-title-2">
             يمكنكم التواصل معنا عبر الهاتف او الواتس اب:<br />
-            <a href='tel:+966539008488'>اتصل بنا +966539008488</a>
-            <br /><a target='_blank' href='https://api.whatsapp.com/send?phone=966539008488'>واتس اب 966539008488</a><br />
+            <a href='tel:+966539008488'><span class="MobileIcon"> </span>اتصل بنا +966539008488</a>
+            <br /><a target='_blank' href='https://api.whatsapp.com/send?phone=966539008488'><span class="whatsappIcon"> </span>واتس اب 966539008488</a>
+            <br /><a href='mailto:info@zer0ne.tech'><span class="EmailIcon"> </span>info@zer0ne.tech</a><br />
             <br />او عبر النموذج التالي<br />
             وسيتم الرد على طلباتكم واستفساراتكم خلال فترة وجيزة
         </span>
@@ -19,9 +25,10 @@
 
     <div id="partial" class="contact100-form validate-form">
         <!--Form Tag-->
-        @*<div id="response" class="alert alert-success" style="display:none">*@
-        <!-- show response -->
-        @*</div>*@
+
+        <div id="response" class="alert alert-success" style="display:none">
+            <!-- show response -->
+        </div>
 
         <div class="wrap-input100 validate-input" data-validate="Name is required">
             <span class="label-input100">الاسم:</span>
@@ -37,7 +44,7 @@
 
         <div class="wrap-input100 validate-input" data-validate="Phone is required">
             <span class="label-input100">الجوال:</span>
-            <input class="input100" type="text" id="mobil" name="mobil" placeholder="اكتب رقم الجوال">
+            <input class="input100" type="text" id="mobile" name="mobil" placeholder="اكتب رقم الجوال">
             <span class="focus-input100"></span>
         </div>
 
@@ -45,10 +52,6 @@
             <span class="label-input100">الرسالة:</span>
             <textarea class="input100" id="message" name="message" placeholder="اكتب طلبك او استفسارك هنا ..."></textarea>
             <span class="focus-input100"></span>
-        </div>
-
-        <div id="response" class="alert alert-success" style="display:none">
-            <!-- show response -->
         </div>
 
         <div class="container-contact100-form-btn">

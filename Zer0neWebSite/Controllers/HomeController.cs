@@ -20,9 +20,6 @@ namespace Zer0neWebSite.Controllers
         [HttpPost]
         public IActionResult SendEmail(EmailFormModel emailForm)
         {
-            emailForm.Response = "شكرا تم ارسال رسالتك، " + emailForm.Name;
-
-
             try
             {
                 SmtpClient client = new SmtpClient("smtp.zoho.com", 587);
